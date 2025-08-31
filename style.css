@@ -3,8 +3,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-block: calc(1rem + 1vw); /* بدل margin-top/bottom */
-       padding-inline: calc(1rem + 1vw); /* بدل margin-left/right */
+   padding-block: calc(1rem + 1vw); /* بدل margin-
+block-start/bottom */
+       padding-inline: calc(1rem + 1vw); /* بدل margin-inline-start/right */
     font-family: sans-serif;
 }
 
@@ -52,13 +53,13 @@ header {
 }
 
 ul{
- margin-left: 28px;
+ margin-inline-start: 28px;
   line-height: 2;
     font-size: 18px;
 }
 
 ul li{
-      margin-left: 5px;
+      margin-inline-start: 5px;
 color:hsl(30, 10%, 25%);
 }
 
@@ -71,7 +72,7 @@ ul li::marker {
 
 ul li span {
     font-weight: bold; /* يخلي الكلمة الأولى بولد */
-    margin-top: 20px;
+    margin-block-start: 20px;
     padding: 7px;
 }
  
@@ -79,18 +80,19 @@ ul li span {
     color:hsl(332, 51%, 30%);
     font-size: 40px;
     font-family: 'Young Serif', serif;
-padding-top: 30px;
-margin-left: 50px;
-margin-right: 10px;
+padding-block-start: 30px;
+margin-inline-start 
+: 50px;
+margin-inline-end: 10px;
 }
 
 .ing {
-margin-left: 40px;
- margin-top: -5px;
+margin-inline-start: 40px;
+ margin-block-start: -5px;
 }
 
 #li {
-        margin-left: 5px;
+        margin-inline-start : 5px;
       text-indent: 15px;
 }
 
@@ -116,8 +118,8 @@ ol li::marker {
 
 ol li span {
     font-weight: bold; /* يخلي الكلمة الأولى بولد */
-    margin-top: 20px;
-    padding-left: 10px;
+    margin-block-start : 20px;
+    padding-inline-start: 10px;
 
 }
  
@@ -125,7 +127,7 @@ ol li {
 color:hsl(32, 10%, 29%);
 font-family: 'Outfit', sans-serif;
 font-optical-sizing: auto;
-padding-left: 20px;
+padding-inline-start: 20px;
   text-indent: -10px;
 }
 
@@ -137,19 +139,19 @@ color:hsl(30, 10%, 34%);
  
 .Four{
      margin: 50px  0  -15px  60px;
- padding-bottom: 80px;
+ padding-block-end: 80px;
  }
  
 #Calculating {
     font-weight: bold;
      font-size: 18px;
-     margin-bottom: 50px;
+     margin-block-end : 50px;
      margin: -18px 30px;
 }
 
  #calc {
    display: inline-block;
-    margin-left: 215px; 
+    margin-inline-start: 215px; 
     font-weight: bold;
     font-size: 18px;
         color:hsl(332, 51%, 30%);
@@ -158,7 +160,7 @@ color:hsl(30, 10%, 34%);
 
  #Carbs {
    display: inline-block;
-    margin-left: 235px; 
+   margin-inline-start: 235px; 
     font-weight: bold;
     font-size: 18px;
         color:hsl(332, 51%, 30%);
@@ -167,7 +169,7 @@ color:hsl(30, 10%, 34%);
 
  #Protein{
   display: inline-block;
-    margin-left: 224px; 
+   margin-inline-start: 224px; 
     font-weight: bold;
     font-size: 18px;
         color:hsl(332, 51%, 30%);
@@ -177,7 +179,7 @@ color:hsl(30, 10%, 34%);
 
  #Fat{
   display: inline-block;
-    margin-left: 259px; 
+    margin-inline-start: 259px; 
     font-weight: bold;
     font-size: 18px;
         color:hsl(332, 51%, 30%);
